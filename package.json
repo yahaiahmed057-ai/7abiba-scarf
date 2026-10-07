@@ -1,0 +1,11 @@
+{
+  "name": "7abiba-scarf-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arabic RTL e-commerce store for scarves (tarha) and isdal. Zero npm dependencies; requires Node 22.5+.",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --no-warnings server/index.js",
+    "test": "node --no-warnings tests/test.js"
+  }
+}
